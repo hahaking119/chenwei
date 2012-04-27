@@ -59,7 +59,7 @@ return array(
 			'username' => 'root',
 			'password' => '',
 			'charset' => 'utf8',
-			'tablePrefix' => '',
+			'tablePrefix' => 'ds_',
 		),
 		
 		'errorHandler'=>array(
