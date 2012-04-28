@@ -2,8 +2,8 @@
 
 class DefaultController extends Controller
 {
-	public function actionIndex()
+	public function actionLogin()
 	{
-		$this->render('index');
+		$this->render('login');
 	}
 }
