@@ -4,8 +4,8 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
 <title>{if $head_title}{$head_title}{$DT[seo_delimiter]}{/if}商务中心{$DT[seo_delimiter]}{if $city_sitename}{$city_sitename}{else}{$DT[sitename]}{/if}{$DT[seo_delimiter]}Powered By Destoon</title>
 <meta name="generator" content="Destoon B2B,www.destoon.com"/>
-<link rel="shortcut icon" href="{DT_PATH}favicon.ico"/>
-<link rel="bookmark" href="{DT_PATH}favicon.ico"/>
+<link rel="shortcut icon" href="<?php echo Yii::app()->request->baseUrl; ?>/favicon.ico"/>
+<link rel="bookmark" href="<?php echo Yii::app()->request->baseUrl; ?>/favicon.ico"/>
 <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/style.css"/>
 {if !DT_DEBUG}<script type="text/javascript">window.onerror= function(){return true;}</script>{/if}
 <script type="text/javascript" src="{DT_PATH}lang/{DT_LANG}/lang.js"></script>
