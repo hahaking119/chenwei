@@ -2,17 +2,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-<title><?php echo yii::app()->theme->baseUrl;?></title>
-<meta name="generator" content="Destoon B2B,www.destoon.com"/>
+<title><?php echo CHtml::encode($this->pageTitle);?></title>
 <link rel="shortcut icon" href="<?php echo Yii::app()->request->baseUrl; ?>/favicon.ico"/>
 <link rel="bookmark" href="<?php echo Yii::app()->request->baseUrl; ?>/favicon.ico"/>
-<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/style.css"/>
-{if !DT_DEBUG}<script type="text/javascript">window.onerror= function(){return true;}</script>{/if}
-<script type="text/javascript" src="{DT_PATH}lang/{DT_LANG}/lang.js"></script>
-<script type="text/javascript" src="{DT_PATH}file/script/config.js"></script>
-<script type="text/javascript" src="{DT_PATH}file/script/common.js"></script>
-<script type="text/javascript" src="{DT_PATH}file/script/admin.js"></script>
-<script type="text/javascript" src="{DT_PATH}file/script/member.js"></script>
+<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/style.css" />
 </head>
 <body>
 <div id="msgbox" style="display:none;"></div>
