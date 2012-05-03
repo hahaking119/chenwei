@@ -12,6 +12,8 @@ class MemberModule extends CWebModule
 			'member.models.*',
 			'member.components.*',
 		));
+		
+		$this->layout = '/layouts/main';
 	}
 
 	public function beforeControllerAction($controller, $action)
